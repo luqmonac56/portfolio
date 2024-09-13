@@ -3,7 +3,7 @@ export const projectData = [
     name: "Tifi",
     desc: "Powerful AI tools designed for creators, researchers, professionals, and educators to create, transform, and enhance contents",
     lang: "typescript, Next.js , tailwind css,",
-    link: "tifi.tv",
+    link: "https://tifi.tv/",
   },
   {
     name: "Timbu store",
@@ -30,7 +30,7 @@ export const projectData = [
     name: "Boutrose Website",
     desc: "A company website to showcase the services that is being offered by the company. ",
     lang: "Nuxt Js , tailwind css Javascript",
-    link: "www.boutrose.com",
+    link: "https://www.boutrose.com/",
   },
 
   {
