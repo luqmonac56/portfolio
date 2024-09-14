@@ -21,32 +21,34 @@ const Contact = () => {
       <div
         className={`mt-10 flex flex-col lg:gap-[60px] gap-6  lg:flex-row items-center justify-center`}
       >
-        <div className="flex flex-col items-center gap-[10px]">
-          <div className="bg-gradient-to-l from-[#CFFAFF] to-[#CFFAFF00] pr-[1px] pt-[1px] max-w-[75px] max-h-[75px]">
-            <MailIcon
-              className={`w-[30px] h-[30px] p-2 md:p-[5px] bg-[#000000] md:w-[36px] md:h-[36px]`}
-            />
+        <a
+          className={`text-[#FFFFFF99] font-medium text-base md:text-[20px] md:leading-[30px]`}
+          href="mailto:sirhmvfx@gmail.com"
+        >
+          <div className="flex flex-col items-center gap-[10px]">
+            <div className="bg-gradient-to-l from-[#CFFAFF] to-[#CFFAFF00] pr-[1px] pt-[1px] max-w-[75px] max-h-[75px]">
+              <MailIcon
+                className={`w-[30px] h-[30px] p-2 md:p-[5px] bg-[#000000] md:w-[36px] md:h-[36px]`}
+              />
+            </div>
+
+            <span>luqmonac5@gmail.com</span>
           </div>
-          <a
-            className={`text-[#FFFFFF99] font-medium text-base md:text-[20px] md:leading-[30px]`}
-            href="mailto:sirhmvfx@gmail.com"
-          >
-            luqmonac5@gmail.com
-          </a>
-        </div>
-        <div className="flex flex-col items-center gap-[10px]">
-          <div className="bg-gradient-to-r to-[#CFFAFF] from-[#CFFAFF00] pr-[1px] pt-[1px] max-w-[75px] max-h-[50px]">
-            <PhoneIcon
-              className={`w-[30px] h-[30px] p-2 md:p-[5px] bg-[#000000] md:w-[36px] md:h-[36px]`}
-            />
+        </a>
+
+        <a
+          href="tel:+2349034980910"
+          className={`text-[#FFFFFF99] tex-base font-medium md:text-[20px] md:leading-[30px]`}
+        >
+          <div className="flex flex-col items-center gap-[10px]">
+            <div className="bg-gradient-to-r to-[#CFFAFF] from-[#CFFAFF00] pr-[1px] pt-[1px] max-w-[75px] max-h-[50px]">
+              <PhoneIcon
+                className={`w-[30px] h-[30px] p-2 md:p-[5px] bg-[#000000] md:w-[36px] md:h-[36px]`}
+              />
+            </div>
+            <span>+2348144638782</span>
           </div>
-          <a
-            href="tel:+2349034980910"
-            className={`text-[#FFFFFF99] tex-base font-medium md:text-[20px] md:leading-[30px]`}
-          >
-            +2348144638782
-          </a>
-        </div>
+        </a>
         <div className="flex flex-col items-center gap-[10px]">
           <div className="bg-gradient-to-l from-[#CFFAFF] to-[#CFFAFF00] pr-[1px] pt-[1px] max-w-[75px] max-h-[75px]">
             <LocationIcon

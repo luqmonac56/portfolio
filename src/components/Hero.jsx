@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { InIcon, TwIcon, GhIcon } from "../assets/Icons";
-import hero from "../assets/images/profile.jpg";
+// import hero from "../assets/images/profile.jpg";
 
 const Hero = () => {
   return (
@@ -80,12 +80,12 @@ const Hero = () => {
           <div className="mt-[2.5rem]">
             <div className="relative flex flex-col justify-center w-max">
               <div className={`w-full`}>
-                <img
+                {/* <img
                   src={hero}
                   alt="hero image is here"
                   className="absolute w-full h-full bottom-3 right-4 md:bottom-5 md:right-6 lg:bottom-10 lg:right-12"
                   draggable={false}
-                />
+                /> */}
               </div>
               <motion.div
                 className={`shrink-0 w-[300px] h-[300px] lg:min-w-[400px] lg:min-h-[400px] border-[3px] border-[#ffffff]`}
