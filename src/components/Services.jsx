@@ -17,7 +17,7 @@ const Services = () => {
       </div>
 
       {/* cards */}
-      <div className="flex flex-col mt-[56px] gap-2 lg:mt-[56px] lg:flex lg:flex-wrap lg:flex-shrink-0 lg:justify-start lg:flex-row lg:items-center lg:gap-[24px]">
+      <div className="flex flex-col gap-2 lg:flex lg:flex-wrap lg:flex-shrink-0 lg:justify-start lg:flex-row lg:items-center lg:gap-[24px]">
         {/* first cards */}
         <div
           className={`overflow-hidden flex flex-col gap-3 flex-nowrap justify-start md:flex md:flex-row md:flex-wrap md:justify-arounds md:gap-4 lg:flex lg:flex-col lg:gap-[24px]`}

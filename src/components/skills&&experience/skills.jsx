@@ -3,7 +3,7 @@ import Experience from "./experience";
 
 const Skills = () => {
   return (
-    <section className="overflow-hidden px-[33px] mt-[60px] lg:px-[70px] lg:mt-[152px]">
+    <section className="overflow-hidden px-[33px] mt-[20px] lg:px-[70px] lg:mt-[50px]">
       <div className="flex flex-col gap-[60px] lg:flex-row lg:gap-[36px]   lg:justify-cente">
         {/*skills */}
         <div className={`flex flex-col`}>

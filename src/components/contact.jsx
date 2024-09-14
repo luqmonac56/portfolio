@@ -3,9 +3,9 @@ import { LocationIcon, MailIcon, PhoneIcon } from "../assets/Icons";
 const Contact = () => {
   return (
     <section className="mx-[30px] mt-[60px] lg:mx-[76px] lg:mt-[150px]">
-      <div className="flex flex-col items-center gap-[35px] md:gap-[25px]">
+      <div className="flex flex-col items-center gap-6">
         <h3
-          className={`font-medium text-[#FFFFFF99] text-base text-center max-w-[320px] md:max-w-[992px] md:text-lg md:leading-[37.5px]`}
+          className={`font-medium text-[#FFFFFF99] text-base text-center max-w-[320px] hidden md:block md:max-w-[992px] md:text-lg md:leading-[37.5px]`}
         >
           I can help you build or improve the product experience for your new or
           existing products. Feel free to get in touch with me.
@@ -15,11 +15,11 @@ const Contact = () => {
         </h1>
 
         <p className="flex items-center font-semibold text-[15px] leading-[22.5px] md:text-[20px] md:leading-[30px] text-[#FFFFFF99]">
-          Say Hello! <small className={`animate-bounce`}>👋</small>
+          Say Hi! <small className={`animate-bounce`}>👋</small>
         </p>
       </div>
       <div
-        className={`mt-[51px] flex flex-col gap-[60px] lg:flex lg:flex-row items-center justify-center`}
+        className={`mt-10 flex flex-col lg:gap-[60px] gap-6  lg:flex-row items-center justify-center`}
       >
         <div className="flex flex-col items-center gap-[10px]">
           <div className="bg-gradient-to-l from-[#CFFAFF] to-[#CFFAFF00] pr-[1px] pt-[1px] max-w-[75px] max-h-[75px]">

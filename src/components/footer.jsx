@@ -3,12 +3,10 @@ import { Copyright, GhIcon, InIcon, TwIcon } from "../assets/Icons";
 
 const Footer = () => {
   return (
-    <section
-      className={`mx-[30px] mt-[60px] pb-[50px] lg:mx-[76px] lg:mt-[150px]`}
-    >
+    <section className={`mx-[30px] mt-[60px] pb-6 lg:mx-[76px] `}>
       {/* line */}
       <div className="lg:max-w-[13000px] lg:mx-[71px] h-[2px] mt-[63.37px] bg-[#0A1C20]"></div>
-      <div className="mt-[63px] flex flex-col md:flex md:flex-row justify-between items-center ">
+      <div className="mt-8 flex flex-col gap-6 md:flex md:flex-row justify-between items-center ">
         <div className="flex items-center gap-[10px]">
           <span>
             <Copyright
@@ -16,9 +14,9 @@ const Footer = () => {
             />
           </span>
           <p className={`text-[#FFFFFF99] md:text-xl text-lg font-medium`}>
-            Luqman Abdullahi <span>  {new Date().getFullYear()} </span>
+            Luqman Abdullahi <span> {new Date().getFullYear()} </span>
           </p>
-        </div> 
+        </div>
         <div className="flex justify-start items-center  gap-[26px] md:gap-[40px]">
           <motion.a
             href="https://twitter.com/devDotViju"
@@ -34,7 +32,7 @@ const Footer = () => {
             />
           </motion.a>
           <motion.a
-            href="https://www.instagram.com/sirhm_vfx/?igshid=MzRlODBiNWFlZA%3D%3D"
+            href="https://github.com/luqmonac56"
             target="_blank"
             rel="noreferrer"
             whileTap={{ scale: 1.1 }}
