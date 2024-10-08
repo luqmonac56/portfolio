@@ -31,7 +31,6 @@ const Contact = () => {
                 className={`w-[30px] h-[30px] p-2 md:p-[5px] bg-[#000000] md:w-[36px] md:h-[36px]`}
               />
             </div>
-
             <span>luqmonac5@gmail.com</span>
           </div>
         </a>
