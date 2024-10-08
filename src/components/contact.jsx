@@ -23,7 +23,7 @@ const Contact = () => {
       >
         <a
           className={`text-[#FFFFFF99] font-medium text-base md:text-[20px] md:leading-[30px]`}
-          href="mailto:sirhmvfx@gmail.com"
+          href="mailto:luqmonac5@gmail.com"
         >
           <div className="flex flex-col items-center gap-[10px]">
             <div className="bg-gradient-to-l from-[#CFFAFF] to-[#CFFAFF00] pr-[1px] pt-[1px] max-w-[75px] max-h-[75px]">
@@ -37,7 +37,7 @@ const Contact = () => {
         </a>
 
         <a
-          href="tel:+2349034980910"
+          href="tel:+2348144638782"
           className={`text-[#FFFFFF99] tex-base font-medium md:text-[20px] md:leading-[30px]`}
         >
           <div className="flex flex-col items-center gap-[10px]">
